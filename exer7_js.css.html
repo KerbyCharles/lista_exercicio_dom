@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifique and add</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main_style">
+        <header>
+            <h1>Verifique se há class ativa</h1>
+        </header>
+        <section>
+            <div id="div_one" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur quis totam hic. Nesciunt ab et impedit non dolores doloribus soluta perspiciatis natus. Odio nesciunt vel, delectus blanditiis officiis consequuntur.</p>
+            </div>
+            <button id="btnOne" class="btn">Adicionar</button>
+            <button class="btn" id="btnTwo">Verificar</button>
+        </section>
+    </main>
+</body>
+</html>
+<script src="script2.js"defer></script>
+
+
+
+
+
+<!--js-->
+
+<!--const my_div = document.getElementById("div_one");
+const btn = document.getElementById("btnOne");
+const btn_veri = document.getElementById("btnTwo");
+
+btnTwo.addEventListener("click", () => {
+    if (!my_div.classList.contains("ativa")){
+        alert(`Class "ativa" não adicionado`);
+        btn.addEventListener("click", () => {
+            my_div.classList.add("ativa");
+            alert(`A class 'ativa'  adicinado`);
+        })
+    }else{
+        alert(`A class "ativa" já foi adicionado`);
+    }
+});-->
+
+
+
+<!--CSS-->
+
+<!--* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+    text-decoration: none;
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    transition: all 0,3s ease;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(o, 0, 0, o.1);
+    border: none;
+}
+.btn:hover {
+    transform: translateY(-4px);
+    background-color: #f39c12;
+    opacity: 75%;
+}
+.btn:active {
+    background-color: #f69708;
+    transform: translateY(2px);
+}
+.main_style{
+    padding: 30px 40px;
+    border: solid rgba(0, 0, 0,0.02);
+}-->

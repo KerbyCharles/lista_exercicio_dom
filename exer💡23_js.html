@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Accordion</title>
+  <script src="script.js" defer></script>
+  <style>
+    .accordion-titulo {
+      background-color: #eee;
+      padding: 15px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+    }
+
+    .accordion-conteudo {
+      display: none;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="accordion-titulo">Título 1</div>
+<div class="accordion-conteudo">
+  Conteúdo do primeiro item.
+</div>
+
+<div class="accordion-titulo">Título 2</div>
+<div class="accordion-conteudo">
+  Conteúdo do segundo item.
+</div>
+
+<div class="accordion-titulo">Título 3</div>
+<div class="accordion-conteudo">
+  Conteúdo do terceiro item.
+</div>
+
+</body>
+</html>
+
+
+
+
+<!--js-->
+
+
+<!--const titulos = document.querySelectorAll(".accordion-titulo");
+
+titulos.forEach(function(titulo) {
+  titulo.addEventListener("click", function() {
+
+    const conteudo = this.nextElementSibling;
+
+    if (conteudo.style.display === "block") {
+      conteudo.style.display = "none";
+    } else {
+      conteudo.style.display = "block";
+    }
+
+  });
+});-->

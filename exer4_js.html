@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script2.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+        <h1>Lista dos instrumentos</h1>
+        </header>
+        <section>
+            <ul id="list">
+                <li>Piano</li>
+                <li>Baixo</li>
+            </ul>
+            <label for="inputItem">Campo de digitar</label>
+            <input type="text" placeholder="DIgite o item" class="input" id="input_main">
+            <button class="btn" id="btnOne">Adicionar</button>
+        </section>
+    </main>
+</body>
+</html>
+
+
+<!--javaScript-->
+
+<!--const list_one = document.getElementById("list");
+const btn = document.getElementById("btnOne");
+const input = document.getElementById("input_main");
+
+btn.addEventListener("click", function(){
+    const value_input = input.value;
+    if (value_input === ""){
+        alert("Digite o item antes de adicionar");
+        return;
+    }
+    const newLi = document.createElement("li");
+    newLi.textContent = value_input;
+    list_one.appendChild(newLi);
+    input.value = "";
+    input.focus()
+});-->

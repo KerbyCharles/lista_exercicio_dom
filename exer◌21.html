@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <h2>Minha To-Do List</h2>
+
+        <input type="text" id="novaTarefa" placeholder="Digite uma tarefa">
+        <button id="adicionar">Adicionar</button>
+
+        <ul id="lista"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!--js-->
+
+
+<!--const input = document.getElementById("novaTarefa");
+const botao = document.getElementById("adicionar");
+const lista = document.getElementById("lista");
+
+botao.addEventListener("click", function() {
+
+    if (input.value.trim() === "") return;
+
+    const li = document.createElement("li");
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+
+    const texto = document.createElement("span");
+    texto.innerText = input.value;
+
+    // Quando marcar o checkbox, risca o texto
+    checkbox.addEventListener("change", function() {
+        texto.classList.toggle("concluida");
+    });
+
+    li.appendChild(checkbox);
+    li.appendChild(texto);
+
+    lista.appendChild(li);
+
+    input.value = "";
+});-->

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela via DOM</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<button id="criarTabelaBtn">Criar Tabela</button>
+
+<div id="conteudo" ></div>
+
+</body>
+</html>
+
+
+
+<!--js-->
+
+
+
+
+<!--document.addEventListener("DOMContentLoaded", function() {
+
+  const tableOne = document.getElementById("criarTabelaBtn");
+
+  tableOne.addEventListener("click", function() {
+
+    const div = document.getElementById("conteudo");
+    div.innerHTML = "";
+
+    const tabela = document.createElement("table");
+    tabela.border = "1";
+
+    for (let i = 0; i < 2; i++) {
+      const linha = document.createElement("tr");
+
+      for (let j = 0; j < 2; j++) {
+        const celula = document.createElement("td");
+        celula.textContent = `Linha ${i + 1}, Coluna ${j + 1}`;
+        celula.style.padding = "10px";
+        linha.appendChild(celula);
+      }
+
+      tabela.appendChild(linha);
+    }
+
+    div.appendChild(tabela);
+  });
+
+});-->

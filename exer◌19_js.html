@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 19 - Select</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Escolha uma tecnologia:</h2>
+
+    <select id="meuSelect">
+        <option value="">Selecione uma opção</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+    </select>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!--// Pegando os elementos do DOM
+const select = document.getElementById("meuSelect");
+const resultado = document.getElementById("resultado");
+
+// Adicionando evento de mudança
+select.addEventListener("change", function() {
+
+    // Pegando o valor selecionado
+    const valorSelecionado = this.value;
+
+    // Verificando se algo foi escolhido
+    if (valorSelecionado === "") {
+        resultado.innerText = "Nenhuma opção selecionada.";
+    } else {
+        resultado.innerText = "Você escolheu: " + valorSelecionado;
+    }
+
+});-->
